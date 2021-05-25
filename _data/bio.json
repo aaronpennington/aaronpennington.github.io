@@ -1,40 +1,40 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Aaron Pennington",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://techfolios.github.io/template/images/self_04.jpg",
+    "email": "b.aaron.pennington@gmail.com",
+    "phone": "N/A",
+    "website": "https://aaronpennington.github.io",
+    "summary": "I am studying for a B.S. in Computer Science at Brigham Young University - Idaho. I expect to graduate in July, 2021.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "",
+      "city": "",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "Alabama"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "aaronpennington",
+        "url": "http://github.com/aaronpennington"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "b-aaron-pennington",
+        "url": "http://linkedin.com/in/b-aaron-pennington"
       },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
-      }
+      # {
+        # "network": "twitter",
+        # "username": "mollymal",
+        # "url": "http://twitter.com/changeme"
+      # },
+      # {
+        # "network": "instagram",
+        # "username": "molly",
+        # "url": "http://instagram.com/changeme"
+      # }
     ]
   },
   "interests": [
@@ -83,12 +83,12 @@
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "Brigham Young University - Idaho, Rexburg, ID",
+      "area": "Computer Science (expected July, 2021)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2018-01-05",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.4",
       "courses": [
       ]
     }
