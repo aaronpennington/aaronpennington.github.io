@@ -2,14 +2,14 @@
 layout: project
 type: project
 image: images/cotton-square.png
-title: Quick Weather
+title: Obstacle Avoidance Robot
 permalink: projects/quick-weather
 # All dates must be YYYY-MM-DD format!
-date: 2018-12-01
+date: 2018-04-01
 labels:
   - Python
   - GitHub
-summary: Displays in a GUI the current weather and a 5-day forecast at the user’s location using the OpenWeatherMap API.
+summary: A four-wheeled robot that uses IR sensors to detect objects and steer away from them.
 ---
 
 <img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">

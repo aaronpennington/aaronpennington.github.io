@@ -2,16 +2,16 @@
 layout: project
 type: project
 image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+title: Tabletop Tools
+permalink: projects/tabletop-tools
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2019-08-01
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
+  - Android
+  - Java
+  - SQL
   - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+summary: An Android app developed as part of a team project that provides tools for board games, such as dice, cards, and a scoreboard. 
 ---
 
 <img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">

@@ -29,10 +29,10 @@
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "android development",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "Android",
+        "Mobile apps"
       ]
     },
     {
@@ -54,20 +54,19 @@
         "C",
         "C++",
         "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Python",
+        "Erlang",
+        "SQL"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
+        "Windows 10",
         "Ubuntu",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "g++"
       ]
     }
   ],

@@ -1,0 +1,103 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  
+    <title>Aaron Pennington</title>
+  
+    <meta name="description" content="Software engineer with a passion for computer vision, image processing, and clean aesthetic interfaces">
+  
+    <link rel="stylesheet" href="/css/nlam/main.css">
+    <link rel="canonical" href="https://www.aaronpennington.github.io//">
+    <link rel="alternate" type="application/rss+xml" title="Aaron Pennington" href="/feed.xml">
+  
+    <!-- <link rel="icon" sizes="16x16 32x32" href="/images/nathan-logo.png"> -->
+  
+    <!-- Semantic UI -->
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  
+    <!-- Page color syntax (load before semantic items) -->
+    
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
+  
+    <!-- Personal stylesheet -->
+    <link rel="stylesheet" href="../css/nlam/style.css">
+  
+    <!-- Header navbar scripts -->
+    <script type="text/javascript" src="../js/nlam/navbar-slider.js"></script>
+  
+    <!-- Stylesheet for homepage -->
+    
+    <link rel="stylesheet" href="../css/nlam/homepage.css">
+    
+  
+    <!-- Image-zoom -->
+    <link href="../css/nlam/zoom.css" rel="stylesheet">
+    <script src="../js/nlam/zoom.js"></script>
+    <script src="../js/nlam/transition.js"></script>
+  
+    <!-- Stylesheet for back-to-top scroller -->
+    <link rel="stylesheet" href="../css/nlam/back-to-top.css">
+  
+    <!-- Sidebar -->
+    <link rel="stylesheet" href="../css/nlam/sidebar.css">
+  </head>
+
+<!-- <div style="margin-top: 10px; " class="ui stackable grid container"></div> -->
+{% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
+{% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
+{% assign num_essays = essay_pages.size %}
+{% assign num_projects = project_pages.size %}
+
+<div style="background-color: #060b31" class="ui fluid borderless inverted container menu">
+    
+    
+  <!-- To get name for home button: Nathan Lam -->
+  <a class="ui centered header item" href="/"><i class="home icon"></i></a>
+  <div class="right aligned item">
+
+    <!--
+    
+    <a class="aligned item" href="/about">About</a>
+    
+    <a class="aligned item" href="/projects">Projects</a>
+    
+    <a class="aligned item" href="/options">Option Trading</a>
+    
+    <a class="aligned item" href="/resume">Resume</a>
+    
+    -->
+    <a class="aligned item" href="/about/"><i class="user icon" style="margin-top:-5px;"></i>About</a>
+    <a class="aligned item" href="/projects/"><i class="briefcase icon" style="margin-top:-3px;"></i>Projects</a>
+
+    <!--
+    <a class="aligned item" href="/blog"><i class="newspaper icon" style="margin-top:-2px;"></i>Blog</a>
+    <a class="sidebar-nav-item" href="/links"><i class="feed icon"></i>Links</a>
+    -->
+    <a class="aligned item" href="/bio"><i class="file alternate outline icon" style="margin-top:-4px;"></i>Resume</a>
+  </div>
+</div>
+
+<!-- <div style="margin-top: 10px; " class="ui stackable grid container"> -->
+<div class="content-cover">
+    <div id="container-background" style="width: 100%; height: 100%;">
+      <canvas id="pixie" width="1860" height="900"></canvas>
+      <div class="wrapper">
+        <div class="ui middle aligned centered grid text container home-page-header">
+          <h1 style="font-family: Ubuntu !important; display: block !important;" class="ui main header homepage transition visible">Aaron Pennington</h1>
+          <p style="margin-top: 0px; font-family: Ubuntu !important; display: block !important;" id="second-header" class="transition visible">Software Engineer • Birmingham, AL</p>
+          <div style="margin-top: 20px" id="navigation-links">
+            <a style="margin-right:7.5px" href="https://github.com/aaronpennington" target="_blank"><i class="circular github icon homepage transition visible" style="display: inline-block !important;"></i></a>
+            <a style="margin-right:7.5px; margin-left: 7.5px" href="http://linkedin.com/in/b-aaron-pennington" target="_blank"><i class="circular linkedin square icon homepage transition visible" style="display: inline-block !important;"></i></a>
+            <a style="margin-right:7.5px; margin-left: 7.5px" href="/bio"><i class="circular suitcase icon homepage transition visible" style="display: inline-block !important;"></i></a>
+            <a style="margin-left: 7.5px" href="mailto:penningtonb@byui.edu" target="_blank"><i class="circular mail outline icon homepage transition visible" style="display: inline-block !important;"></i></a>
+          </div>
+        </div>
+      </div>
+      <div id="mountains" style="background-position: -189.667px 0px;"></div>
+      <!-- <div id="grass" style="background-position: -610.8px 10px;"></div> -->
+    </div>
+  </div>
+  <!-- </div> -->
