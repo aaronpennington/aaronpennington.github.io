@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/robot02.jpg
 title: Obstacle Avoidance Robot
-permalink: projects/quick-weather
+permalink: projects/robot
 # All dates must be YYYY-MM-DD format!
 date: 2018-04-01
 labels:

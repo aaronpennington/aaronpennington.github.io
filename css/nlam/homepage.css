@@ -52,7 +52,7 @@ body {
 }
 
 #mountains {
-  height:350px;
+  height:40%;
   z-index:1;
   background:url(../../images/forest3.png) repeat-x 0 0;
 }

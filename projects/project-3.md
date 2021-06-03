@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/weather.png
 title: Quick Weather
 permalink: projects/quick-weather
 # All dates must be YYYY-MM-DD format!

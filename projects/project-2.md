@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/tabletop_tools_icon.png
 title: Tabletop Tools
 permalink: projects/tabletop-tools
 # All dates must be YYYY-MM-DD format!
