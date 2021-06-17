@@ -255,9 +255,9 @@ li > ul {
   #container-background .ui.middle.aligned.centered.grid.text.container .ui.main.header.homepage {
     font-size: 4em !important;
   }
-  #container-background .wrapper .ui.middle.aligned.centered.grid.text.container.home-page-header #second-header {
+  /* #container-background .wrapper .ui.middle.aligned.centered.grid.text.container.home-page-header #second-header {
     font-size: 1.2em !important;
-  }
+  } */
   #container-background .ui.middle.aligned.centered.grid.text.container .circular.icon {
     font-size: 2em !important;
   }
