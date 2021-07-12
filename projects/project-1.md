@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/powercast-icon.png
+image: images/powercast-icon_v2.png
 title: Powercast
 permalink: projects/powercast
 # All dates must be YYYY-MM-DD format!
